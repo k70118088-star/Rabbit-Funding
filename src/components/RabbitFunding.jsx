@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "./common/Navbar";
-import Hero from "./Hero";
-import BetterTech from "./BetterTech";
+import Hero from "./sectoins/Hero";
+import BetterTech from "./sectoins/BetterTech";
+import RealPeople from "./sectoins/RealPeople";
+import BehindRabbit from "./sectoins/BehindRabbit";
 
 const RabbitFunding = () => {
   return (
@@ -9,6 +11,8 @@ const RabbitFunding = () => {
       <Navbar />
       <Hero />
       <BetterTech />
+      <BehindRabbit />
+      <RealPeople />
     </div>
   );
 };
