@@ -155,16 +155,28 @@ const Icons = ({ icon, className = "", stroke }) => {
     ),
     arrow: (
       <svg
-        width="13"
-        height="13"
-        viewBox="0 0 13 13"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path
-          d="M10.021 3.414L1.414 12.021L-3.8147e-06 10.607L8.607 2H1.021V-3.8147e-06H12.021V11H10.021V3.415V3.414Z"
-          fill="currentColor"
-        />
+        <g clipPath="url(#clip0_5025_165)">
+          <path
+            d="M15 10.41L6.393 19.017L4.979 17.603L13.586 8.99603H6V6.99603H17V17.996H15V10.411V10.41Z"
+            fill="#FEFEFE"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_5025_165">
+            <rect
+              width="24"
+              height="24"
+              fill="white"
+              transform="matrix(-1 0 0 -1 24 24)"
+            />
+          </clipPath>
+        </defs>
       </svg>
     ),
   };

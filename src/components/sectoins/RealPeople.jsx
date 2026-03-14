@@ -4,7 +4,7 @@ import { reviews } from "../../utils/Helper";
 
 const RealPeople = () => {
   return (
-    <div className="max-w-285 m-auto mb-20 lg:mb-42.5 px-4 ">
+    <div className="max-w-293 m-auto mb-20 lg:mb-42.5 px-4 ">
       <h3 className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-[120%] text-primary text-center">
         Real People. Real Results.
       </h3>

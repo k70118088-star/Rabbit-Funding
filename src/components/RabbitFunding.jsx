@@ -4,6 +4,7 @@ import Hero from "./sectoins/Hero";
 import BetterTech from "./sectoins/BetterTech";
 import RealPeople from "./sectoins/RealPeople";
 import BehindRabbit from "./sectoins/BehindRabbit";
+import WorkRabbit from "./sectoins/WorkRabbit";
 
 const RabbitFunding = () => {
   return (
@@ -13,6 +14,7 @@ const RabbitFunding = () => {
       <BetterTech />
       <BehindRabbit />
       <RealPeople />
+      {/* <WorkRabbit /> */}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Icons from "./Icons";
+
 import Button from "./Button";
 import { navLinks } from "../../utils/Helper";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -34,14 +34,14 @@ const Navbar = () => {
     <div className="max-w-360 w-full m-auto relative">
       <div className="max-w-300 m-auto flex items-center justify-between py-5 px-4 ">
         <a href="">
-          <Icons icon={"logo"} />
+          <img src="/assets/Logo.svg" alt="" className="w-28 sm:w-32 lg:w-auto" />
         </a>
         <div className="hidden lg:flex items-center gap-6">
           {navLinks.map((item, index) => (
             <a
               key={index}
               href={item.link}
-              className="font-normal hover:[-webkit-text-stroke:1px_#2B2B2B] text-base text-secondary"
+              className="font-normal hover:[-webkit-text-stroke:0.5px_#2B2B2B] text-base text-secondary"
             >
               {item.name}
             </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <Button
             text={"Contact Us"}
-            className="hover:bg-green hover:text-white hover:border-transparent border-2 border-primary font-semibold text-base text-primary py-4 px-8 rounded-[200px]"
+            className="hover:bg-green hover:transition-all hover:ease-in-out hover:duration-500 hover:text-white hover:border-transparent border-2 border-primary font-semibold text-base text-primary py-4 px-8 rounded-[200px]"
           />
         </div>
         <div

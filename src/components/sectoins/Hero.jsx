@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="max-w-360 m-auto w-full mt-10 mb-22.5 ">
       <div className="px-4  max-w-300 m-auto flex flex-col lg:flex-row items-center justify-between lg:gap-0 gap-10  w-full">
         <div className="text-center lg:text-left">
-          <h1 className="lg:mt-18 mt-0 font-bold text-[36px] sm:text-[44px] lg:text-custom-5xl leading-[120%] text-primary max-w-122.5">
+          <h1 className="lg:mt-10 mt-0 font-bold text-[36px] sm:text-[44px] lg:text-custom-5xl leading-[120%] text-primary max-w-122.5">
             Built by People. Backed by Tech.
           </h1>
 
@@ -18,9 +18,9 @@ const Hero = () => {
           </p>
 
           <Button
-            text={"Join the   Success "}
+            text={"Join the Success "}
             className={
-              "hover:bg-white hover:border hover:border-primary hover:text-primary mt-8 py-5 px-8 rounded-[200px] bg-green font-semibold text-base leading-[100%] text-white flex items-center gap-1.5 mx-auto lg:mx-0"
+              "hover:bg-transparent hover:transition-all hover:ease-in-out hover:duration-500 border border-transparent hover:border-primary hover:text-primary mt-8 py-3 px-6  md:py-5  md:px-[31.5px] rounded-[200px] bg-green font-semibold text-sm md:text-base leading-[100%] text-white flex items-center gap-1.5 mx-auto lg:mx-0"
             }
             icon={"arrow"}
           />
