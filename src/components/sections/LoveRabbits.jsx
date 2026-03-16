@@ -13,7 +13,7 @@ const LoveRabbits = () => {
         <Button
           text={"Submit Your Testimonial"}
           className={
-            "bg-[#010101]/24 mt-6 lg:mt-8 rounded-[200px] text-white py-4 lg:py-5 px-6 lg:px-8 font-semibold text-sm lg:text-base leading-[100%] flex items-center transition-all duration-300 transform  hover:bg-white hover:text-primary"
+            "bg-[#010101]/24 mt-6 lg:mt-8 rounded-[200px] text-white py-4 lg:py-5 px-6 lg:px-8 font-semibold text-sm lg:text-base leading-[100%] flex items-center hover:transition-all hover:ease-in-out hover:duration-900 transform  hover:bg-white hover:text-primary"
           }
           icon={"arrow"}
         />

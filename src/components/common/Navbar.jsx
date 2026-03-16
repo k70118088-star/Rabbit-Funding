@@ -44,7 +44,7 @@ const Navbar = () => {
             <a
               key={index}
               href={item.link}
-              className="font-normal hover:[-webkit-text-stroke:0.5px_#2B2B2B] text-base text-secondary"
+              className={`font-normal ${item.name === 'Home' ? "[-webkit-text-stroke:0.5px_#2B2B2B]" : "text-base text-secondary"} `}
             >
               {item.name}
             </a>
