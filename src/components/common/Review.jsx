@@ -12,7 +12,7 @@ const Review = ({ text, img, name, role , height , width }) => {
         <FaStar />
         <FaStar />
       </div>
-      <p className="mt-4 text-base font-normal leading-[150%] text-secondary">
+      <p className="mt-4 text-sm sm:text-base font-normal leading-[150%] text-secondary">
         {text}
       </p>
        </div>
@@ -21,7 +21,7 @@ const Review = ({ text, img, name, role , height , width }) => {
         <img
           src={img}
           alt={name}
-          className="w-10 h-10 rounded-full object-cover"
+          className="w-12.5 h-12.5 rounded-full object-cover"
         />
 
         <div>

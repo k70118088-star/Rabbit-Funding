@@ -6,7 +6,7 @@ const WorkRabbit = () => {
     <div className="w-full py-16 md:py-20 lg:py-25 px-4 bg-linear-to-b from-[rgba(76,175,80,0.1)] to-[rgba(76,175,80,0)]">
       <div className="max-w-[743.29px] relative w-full flex flex-col items-center justify-center m-auto min-h-[350px] md:min-h-[420px] lg:h-118.25">
         
-        <div className=" absolute inset-0 bg-[url('/assets/Subtract.png')] bg-cover bg-center opacity-5"></div>
+        <div className=" absolute inset-0 bg-[url('/assets/Subtract.png')] bg-cover bg-no-repeat bg-[100%_100%]! bg-center opacity-5"></div>
 
         <div className="relative flex flex-col items-center text-center">
           <h2 className="font-bold text-3xl sm:text-4xl lg:text-custom-5xl leading-[120%] text-primary">

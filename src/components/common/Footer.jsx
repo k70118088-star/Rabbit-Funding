@@ -6,9 +6,9 @@ const Footer = () => {
 
   return (
     <div className="w-full bg-ternary px-4">
-      <div className="max-w-285 mx-auto relative flex flex-col items-center pt-25 gap-15">
+      <div className="max-w-249 mx-auto relative flex flex-col items-center pt-25 gap-15">
         
-        <a href="/" className="max-w-74.5 w-full max-h-34">
+        <a href="/" className="scale-75 sm:scale-100">
           <Icons icon={"logo"} />
         </a>
 
@@ -24,10 +24,15 @@ const Footer = () => {
           {Footer_links.map((item, i) => (
             <div className="flex flex-col gap-3" key={i}>
               <h3 className="text-secondary font-semibold">{item.title}</h3>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col text-secondary gap-3">
                 {item.links.map((link, idx) => (
                   <li key={idx}>
-                    <a href="">{link}</a>
+                    <a
+                      href=""
+                      className="hover:[-webkit-text-stroke:0.5px_#2B2B2B]"
+                    >
+                      {link}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -37,10 +42,13 @@ const Footer = () => {
           <div className="md:flex flex-col gap-3">
             <h3 className="text-secondary font-semibold">Contact</h3>
 
-            <ul className="gap-3 flex flex-col">
+            <ul className="gap-3 flex text-secondary flex-col">
               
               <li>
-                <a href="tel:520-702-5510" className="flex gap-2 group">
+                <a
+                  href="tel:520-702-5510"
+                  className="flex gap-2 group hover:[-webkit-text-stroke:0.5px_#2B2B2B]"
+                >
                   <Icons icon={"phone"} />
                   520-702-5510
                 </a>
@@ -49,7 +57,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:Admin@rabbitfunding.io"
-                  className="flex gap-2 group"
+                  className="flex gap-2 group underline hover:[-webkit-text-stroke:0.5px_#2B2B2B]"
                 >
                   <Icons icon={"mail"} />
                   Admin@rabbitfunding.io
@@ -57,7 +65,10 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="geo:NY" className="flex gap-2">
+                <a
+                  href="geo:NY"
+                  className="flex gap-2 hover:[-webkit-text-stroke:0.5px_#2B2B2B]"
+                >
                   <Icons icon={"location"} />
                   28 Liberty St, NY, NY, 10005
                 </a>
@@ -66,12 +77,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
 
-        <div className="text-center pb-3.5 w-full flex flex-col gap-4 px-4">
-          <span className="border border-primary opacity-10 w-full"></span>
-          <p>© {date} Rabbit Funding, LLC. All rights reserved.</p>
-        </div>
-
+      <div className="text-center pb-3.5 mt-7 sm:mt-15 w-full flex flex-col gap-4">
+        <span className="border border-[#010101] opacity-10 w-full"></span>
+        <p>© {date} Rabbit Funding, LLC. All rights reserved.</p>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
-import React from "react";
-import Navbar from "./common/Navbar";
+
 import Hero from "./sections/Hero";
 import BetterTech from "./sections/BetterTech";
 import RealPeople from "./sections/RealPeople";
@@ -11,8 +10,8 @@ import LoveRabbits from "./sections/LoveRabbits";
 
 const RabbitFunding = () => {
   return (
-    <div className="bg-linear-to-b from-[rgba(76,175,80,0.1)] to-[rgba(76,175,80,0)]">
-      <Navbar />
+    <div className="">
+      
       <Hero />
       <BetterTech />
       <BehindRabbit />

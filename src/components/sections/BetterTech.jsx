@@ -10,7 +10,7 @@ const BetterTech = () => {
           <h2 className="text-primary font-bold text-3xl sm:text-4xl lg:text-5xl leading-[120%] text-center pt-10 lg:pt-15">
             Better Tech. Better Team. Better Lending
           </h2>
-          <div className="mt-10 pb-10 lg:pb-15 gap-7.25 flex flex-wrap lg:flex-nowrap items-center justify-center">
+          <div className="mt-10 pb-10 lg:pb-15 gap-7.25  grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4  items-center justify-center">
             {techCards.map((item, index) => (
               <TechCard key={index} text={item.text} icon={item.icon} />
             ))}

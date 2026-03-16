@@ -4,7 +4,7 @@ import { smallReviews } from "../../utils/helper";
 
 const RealStories = () => {
   return (
-    <div className="max-w-285 m-auto w-full py-20 lg:py-42.5 px-4">
+    <div className="max-w-285 m-auto w-full py-20 lg:py-42.5 px-4 lg:px-0">
       <div className="max-w-181 m-auto">
         <h2 className="font-bold text-3xl sm:text-4xl lg:text-custom-5xl text-primary leading-[120%] text-center lg:text-left">
           Real Stories. Real Funding.

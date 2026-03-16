@@ -3,6 +3,7 @@ import Button from "./Button";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { navLinks } from "../../utils/helper";
 
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef();
@@ -30,7 +31,7 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <div className="max-w-360 w-full m-auto relative">
+    <div className=" w-full m-auto relative">
       <div className="max-w-300 m-auto flex items-center justify-between py-5 px-4 ">
         <a href="">
           <img
@@ -44,7 +45,7 @@ const Navbar = () => {
             <a
               key={index}
               href={item.link}
-              className={`font-normal ${item.name === 'Home' ? "[-webkit-text-stroke:0.5px_#2B2B2B]" : "text-base text-secondary"} `}
+              className={` ${item.name === 'Home' ? "font-semibold text-primary text-base leading-[120%]" : "leading-[150%] font-normal text-base text-secondary"} `}
             >
               {item.name}
             </a>
@@ -53,7 +54,7 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <Button
             text={"Contact Us"}
-            className="hover:bg-green hover:transition-all hover:ease-in-out hover:duration-500 hover:text-white hover:border-transparent border-2 border-primary font-semibold text-base text-primary py-4 px-8 rounded-[200px]"
+            className="hover:bg-green hover:transition-all hover:ease-in-out hover:duration-500 hover:text-white hover:border-transparent border-2 border-primary font-semibold text-base text-primary py-[14.5px] px-7.75 rounded-[200px]"
           />
         </div>
         <div
@@ -80,7 +81,7 @@ const Navbar = () => {
             <a
               key={index}
               href={item.link}
-              className="text-base text-secondary"
+              className={` ${item.name === 'Home' ? "font-semibold text-primary text-base leading-[120%]" : "leading-[150%] font-normal text-base text-secondary"} `}
               onClick={() => setMenuOpen(false)}
             >
               {item.name}
