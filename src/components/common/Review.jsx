@@ -1,9 +1,9 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 
-const Review = ({ text, img, name, role }) => {
+const Review = ({ text, img, name, role , height , width }) => {
   return (
-    <div className="max-w-139.5 flex-col min-h-98.5 flex justify-between w-full bg-white shadow-[0px_4px_54px_0px_#0000000D] rounded-3xl p-6 ">
+    <div className={`${width} flex-col ${height} flex justify-between w-full bg-white shadow-[0px_4px_54px_0px_#0000000D] rounded-3xl p-6 `}>
         <div>
       <div className="flex gap-1 text-[#FBBF24]">
         <FaStar />

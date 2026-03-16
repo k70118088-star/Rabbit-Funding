@@ -1,10 +1,13 @@
 import React from "react";
 import Navbar from "./common/Navbar";
-import Hero from "./sectoins/Hero";
-import BetterTech from "./sectoins/BetterTech";
-import RealPeople from "./sectoins/RealPeople";
-import BehindRabbit from "./sectoins/BehindRabbit";
-import WorkRabbit from "./sectoins/WorkRabbit";
+import Hero from "./sections/Hero";
+import BetterTech from "./sections/BetterTech";
+import RealPeople from "./sections/RealPeople";
+import BehindRabbit from "./sections/BehindRabbit";
+import WorkRabbit from "./sections/WorkRabbit";
+import RealStories from "./sections/RealStories";
+import Footer from "./common/Footer";
+import LoveRabbits from "./sections/LoveRabbits";
 
 const RabbitFunding = () => {
   return (
@@ -14,7 +17,10 @@ const RabbitFunding = () => {
       <BetterTech />
       <BehindRabbit />
       <RealPeople />
-      {/* <WorkRabbit /> */}
+      <WorkRabbit />
+      <RealStories /> 
+       <LoveRabbits />
+      <Footer />
     </div>
   );
 };

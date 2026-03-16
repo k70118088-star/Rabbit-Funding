@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-
 import Button from "./Button";
-import { navLinks } from "../../utils/Helper";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { navLinks } from "../../utils/helper";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,7 +33,11 @@ const Navbar = () => {
     <div className="max-w-360 w-full m-auto relative">
       <div className="max-w-300 m-auto flex items-center justify-between py-5 px-4 ">
         <a href="">
-          <img src="/assets/Logo.svg" alt="" className="w-28 sm:w-32 lg:w-auto" />
+          <img
+            src="/assets/Logo.svg"
+            alt=""
+            className="w-28 sm:w-32 lg:w-auto"
+          />
         </a>
         <div className="hidden lg:flex items-center gap-6">
           {navLinks.map((item, index) => (
