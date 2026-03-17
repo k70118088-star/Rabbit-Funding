@@ -44,24 +44,21 @@ export const reviews = [
 
 export const smallReviews = [
   {
-    height: "min-h-[240px]",
-    width: "max-w-[364px]",
+    
     text: "I needed $75K to build out my second salon. Rabbit gave me the offer same day.",
     img: "/assets/review5.png",
     name: "Karina M.",
     role: "Beauty Business, Miami FL",
   },
   {
-    height: "min-h-[240px]",
-    width: "max-w-[364px]",
+   
     text: "They looked at my actual business, not just my credit. We’ve grown 30% since funding.",
     img: "/assets/review6.png",
     name: "Dave R.",
     role: "Landscaping Contractor, Dallas TX",
   },
   {
-    height: "min-h-[240px]",
-    width: "max-w-[364px]",
+    
     text: "It felt more like a conversation than an application. I was approved in hours.",
     img: "/assets/review7.png",
     name: "Malik J.",
