@@ -6,19 +6,19 @@ const Footer = () => {
 
   return (
     <div className="w-full bg-ternary px-4">
-      <div className="max-w-249 mx-auto relative flex flex-col items-center pt-25 gap-15">
+      <div className="max-w-249 m-auto relative flex flex-col items-center pt-25 gap-14">
         
         <a href="/" className="scale-75 sm:scale-100">
           <Icons icon={"logo"} />
         </a>
 
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6 w-full px-4">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-5 w-full ">
           
           <div className="flex flex-col gap-3">
             <span className="text-secondary font-semibold">
               Rated 4.9 on trustpilot.
             </span>
-            <Icons icon={"trustpilot"} />
+            <Icons icon={"trustpilot"} />   
           </div>
 
           {Footer_links.map((item, i) => (
@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="md:flex flex-col gap-3">
             <h3 className="text-secondary font-semibold">Contact</h3>
 
-            <ul className="gap-3 flex text-secondary flex-col">
+            <ul className="gap-3  sm:mt-0 mt-5 flex text-secondary flex-col">
               
               <li>
                 <a
@@ -67,7 +67,7 @@ const Footer = () => {
               <li>
                 <a
                   href="geo:NY"
-                  className="flex gap-2 hover:[-webkit-text-stroke:0.5px_#2B2B2B]"
+                  className="flex gap-2 w-[247px] hover:[-webkit-text-stroke:0.5px_#2B2B2B]"
                 >
                   <Icons icon={"location"} />
                   28 Liberty St, NY, NY, 10005
