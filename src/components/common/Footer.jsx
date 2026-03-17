@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <div className="w-full bg-ternary px-4">
-      <div className="max-w-249 m-auto relative flex flex-col items-center pt-25 gap-14">
+      <div className="max-w-249 m-auto relative flex flex-col items-center pt-10 sm:pt-25 gap-14">
         
         <a href="/" className="scale-75 sm:scale-100">
           <Icons icon={"logo"} />
