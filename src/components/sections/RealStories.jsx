@@ -18,8 +18,8 @@ const RealStories = () => {
         {smallReviews.map((review, index) => (
           <Review
             key={index}
-            height={review.height}
-            width={review.width}
+            height={"min-h-[240px]"}
+            width={"max-w-[364px]"}
             text={review.text}
             img={review.img}
             name={review.name}
