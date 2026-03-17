@@ -1,4 +1,3 @@
-
 import Hero from "./sections/Hero";
 import BetterTech from "./sections/BetterTech";
 import RealPeople from "./sections/RealPeople";
@@ -10,8 +9,7 @@ import LoveRabbits from "./sections/LoveRabbits";
 
 const RabbitFunding = () => {
   return (
-    <div className="">
-      
+    <div >
       <Hero />
       <BetterTech />
       <BehindRabbit />
